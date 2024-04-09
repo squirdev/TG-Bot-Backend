@@ -1,0 +1,32 @@
+MONGO_CONNECT_URL = 'mongodb://localhost:27017'
+MONGO_DB = "froggies_bot"
+TRACKING_COLLECTION = "tracking"
+TRACKING_BLOCK_COLLECTION = "tracking_block"
+API_KEY_COLLECTION = "api_key"
+
+ETH_RPCS = [
+    # 'https://mainnet.infura.io/v3/abc',
+    'https://ethereum-rpc.publicnode.com',
+]
+
+BSC_RPCS = [
+    "https://rpc.ankr.com/bsc"
+]
+
+SOL_RPCS = [
+    "https://api.mainnet-beta.solana.com"
+]
+
+UNI_V2_FACTORY_SEPOLIA_ADDR = "0xc9f18c25Cfca2975d6eD18Fc63962EBd1083e978"
+WETH_SEPOLIA_ADDR = "0x53Ae49E374C7514052b821abAfaB67C826b4Dc71"
+
+UNI_V2_FACTORY_ADDR = "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f"
+WETH_ADDR = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+
+PCS_V2_FACTORY_ADDR = "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73"
+WBNB_ADDR = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+
+BURN_ADDR = '0x0000000000000000000000000000000000000000'
+
+MORALIS_PROJECT_ID = "abc"
+MORALIS_API_KEY = "abc.abc.abc"
